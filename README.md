@@ -1,2 +1,3 @@
 # HRSystem
-간단하게 구현한 인사관리 시스템
+
+- 사용기술 : HTML, CSS, Javascript, Spring , Java, MySQL, MongoDB
