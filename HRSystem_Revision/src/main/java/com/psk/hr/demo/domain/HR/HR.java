@@ -69,8 +69,6 @@ public class HR {
 //	@GeneratedValue(strategy=GenerationType.IDENTITY)
 //	private Long temp;
 	
-//
-	
 	/* @Column(nullable=false, length=128) */
 	@Column(length=24)
 	private String juminId;
