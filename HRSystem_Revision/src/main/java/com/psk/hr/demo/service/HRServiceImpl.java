@@ -68,8 +68,6 @@ public class HRServiceImpl implements HRService {
 		// TODO Auto-generated method stub
 		HR updateHr = hRRepository.findById(hR.getId()).get();
 		
-//		System.out.println(updateHr.toString());
-		
 		updateHr.setCareers(hR.getCareers());
 		updateHr.setCarNumber(hR.getCarNumber());
 		updateHr.setEdus(hR.getEdus());
