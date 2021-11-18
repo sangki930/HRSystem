@@ -134,7 +134,7 @@ public class HR {
 	/*
 	 * 일대일 매핑
 	 */
-//
+	
 	@OneToOne(cascade=CascadeType.ALL,fetch = FetchType.LAZY)
 //	@OneToOne(fetch = FetchType.EAGER)
 	@JsonBackReference
