@@ -9,5 +9,10 @@ class HrSystemRevisionApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	@Test
+	void test1() {
+		
+	}
 
 }
