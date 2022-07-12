@@ -26,7 +26,7 @@ public class HRUserItemController {
 	
 	private static final String folder_name="thymeleaf/hr/";
 	
-	 private static final Logger log = LoggerFactory.getLogger(HRController.class);
+	private static final Logger log = LoggerFactory.getLogger(HRController.class);
 	
 	@Autowired
 	private HRService hRService;

@@ -50,7 +50,7 @@ public class HRUseritemCareer {
 //	@Column(nullable=false, length=128)
 //	@Enumerated(EnumType.STRING)
 //	private HRRank hRrank;
-//	
+	
 	@Column(length=20)
 	private String careerRank;
 	

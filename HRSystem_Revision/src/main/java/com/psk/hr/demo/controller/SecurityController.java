@@ -25,8 +25,6 @@ public class SecurityController {
     @GetMapping("/admin/adminPage")
     public String admin() {
     	return "thymeleaf/admin/adminPage";
-    }
-   
-    
+    } 
     
 }

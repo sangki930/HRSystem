@@ -2,7 +2,6 @@ package com.psk.hr.demo.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -11,6 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.psk.hr.demo.service.SecurityUserDetailsService;
 
+// Spring Security 설정
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
     
@@ -48,8 +48,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
         
     }
     
-    @Bean
     //암호화 빈 등록
+    @Bean
     public PasswordEncoder passwordEncoder() {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
     }

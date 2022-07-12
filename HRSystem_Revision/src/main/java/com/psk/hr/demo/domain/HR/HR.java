@@ -179,7 +179,7 @@ public class HR {
 	@JsonBackReference
 	//Json은 String으로 변환하기 떼문에 Recursive가 걸림
 //	private HRUseritemQualified hRUseritemQualified; 
-	private Collection<HRUseritemQualified> qualifieds;//자격/면허
+	private Collection<HRUseritemQualified> qualifieds;// 자격/면허
 	
 	
 	
