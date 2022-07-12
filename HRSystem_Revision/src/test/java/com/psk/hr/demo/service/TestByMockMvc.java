@@ -50,8 +50,6 @@ public class TestByMockMvc {
 		
 		MultiValueMap<String, List<HRUseritemEdu>> m = new LinkedMultiValueMap<>();
 		
-		
-		
 //		model.addAttribute("edulist", edulist);
 		System.out.println(edulist.toString());
 		
