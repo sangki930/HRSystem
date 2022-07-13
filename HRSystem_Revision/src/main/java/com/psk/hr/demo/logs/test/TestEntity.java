@@ -10,6 +10,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+// MongoDB와 JPA 연동을 위한 엔티티
 @Document(collection="testentity")
 @Getter
 @Setter
